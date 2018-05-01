@@ -1,5 +1,13 @@
-# kube-prompt-bash
+# What is kube-prompt-bash
 Display context, user, namespace on bash prompt
+
+- sample
+```
+[root@sugi-kubernetes110-master01 ~(kubernetes default kubernetes-admin)]# kubens test
+Context "kubernetes-admin@kubernetes" modified.
+Active namespace is "test".
+[root@sugi-kubernetes110-master01 ~(kubernetes test kubernetes-admin)]# 
+```
 
 # Get Start
 - git clone
